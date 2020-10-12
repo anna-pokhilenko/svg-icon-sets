@@ -8,15 +8,29 @@ html {
   font-family: Overpass, sans-serif;
   background-image: linear-gradient(#ff9500, #ff5e3a);
   color: #fff;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: .5em;
+}
+
+h2 {
+  margin: .5em;
+}
+
 .section {
   display: grid;
   grid-template-columns: 1fr;
+  margin: 1em;
 }
 
 .section .part {
@@ -28,4 +42,13 @@ html {
 .icon svg {
   fill: currentColor;
   width: 7rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #fff;
+  border: .5px solid #fff;
+  padding: 1rem;
+  margin: 0 1.5em;
 }
